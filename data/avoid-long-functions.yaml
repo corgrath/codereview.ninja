@@ -1,0 +1,26 @@
+---
+label: Avoid long functions
+tags:
+  - code-smell
+summary:
+  |
+  Having shorter methods, functions or any prodedural block, makes it easier to read, understand and troubleshoot.
+why-its-considered-bad:
+  |
+  Duplicated code increases the mainttenence costs as the same bug can appear in several places.
+
+  It also increases the effort required in order to apply the same change in several places.
+how-it-can-happen:
+  |
+  It is usually caused by developers copying and pasting code, usually because they are in a hurry and rather than taking (or getting) the time to refactor the code properely.
+  Another common cause is if developers work in a large code base, they usually forget what has already been implemented over time.
+how-to-solve-it:
+  |
+  TODO
+  Therefore, take a part of the method that seems useful on its own. (To check this, see if you can find a good name for it.) Turn it into a separate method. Change the original method to use the new one.
+read-more:
+  - label: Long Method Smell
+    url: http://c2.com/cgi/wiki?LongMethodSmell
+contributers:
+  - label: Christoffer Pettersson
+    url: https://github.com/corgrath
