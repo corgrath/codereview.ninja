@@ -18,7 +18,7 @@ Simply find the [article regarding avoiding duplicated code] and link to it in y
 
 ## Contributing
 
-Please check out [CONTRIBUTING.md][doc-contributing] for more instructions.
+All contributions are appreciative! Please check out [CONTRIBUTING.md][doc-contributing] for more instructions.
 
 
 [doc-contributing]: CONTRIBUTING.md
