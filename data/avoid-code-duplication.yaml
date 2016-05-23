@@ -1,7 +1,5 @@
 ---
 label: Avoid duplicated code
-tags:
-  - code-smell
 summary:
   Duplicated code is when the same sequence of source code or functionalities that gives the same desired results, occurs more than once.
 why-its-considered-bad:
@@ -23,6 +21,5 @@ read-more:
       url: http://en.wikipedia.org/wiki/Don%27t_repeat_yourself
     - label: Copy and paste programming
       url: http://en.wikipedia.org/wiki/Copy_and_paste_programming
-contributers:
-  - label: Christoffer Pettersson
-    url: https://github.com/corgrath
+tags:
+  - code-smell
