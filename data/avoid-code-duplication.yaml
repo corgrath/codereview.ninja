@@ -1,19 +1,17 @@
 ---
 label: Avoid duplicated code
 summary:
-  Duplicated code is when the same sequence of source code or functionalities that gives the same desired results, occurs more than once.
-why-its-considered-bad:
-  |
-  Duplicated code increases the mainttenence costs as the same bug can appear in several places.
-
-  It also increases the effort required in order to apply the same change in several places.
-how-it-can-happen:
-  |
-  It is usually caused by developers copying and pasting code, usually because they are in a hurry and rather than taking (or getting) the time to refactor the code properely.
-  Another common cause is if developers work in a large code base, they usually forget what has already been implemented over time.
-how-to-solve-it:
-  |
-  TBW
+    Duplicated code is when the same sequence of source code or functionalities that gives the same desired results, occurs more than once.
+body:
+    |
+    ## Why is it considered bad
+    Duplicated code increases the mainttenence costs as the same bug can appear in several places.
+    It also increases the effort required in order to apply the same change in several places.
+    ## How it can happen
+    It is usually caused by developers copying and pasting code, usually because they are in a hurry and rather than taking (or getting) the time to refactor the code properely.
+    Another common cause is if developers work in a large code base, they usually forget what has already been implemented over time.
+    # How to solve it
+    TBW
 read-more:
     - label: Duplicate code
       url: http://en.wikipedia.org/wiki/Duplicate_code
